@@ -1,0 +1,21 @@
+{
+  "name": "modal",
+  "repo": "spinly/modal",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/jquery": "*",
+    "spinly/vars": "*",
+    "spinly/transition-end": "*",
+    "spinly/animations": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "index.styl"
+  ]
+}

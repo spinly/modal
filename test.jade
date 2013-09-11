@@ -1,0 +1,28 @@
+html
+  head
+    title modal
+    script(src='build/build.js')
+    link(rel='stylesheet', href='build/build.css')
+
+    :stylus
+      body
+        padding: 50px
+
+  h1 modal
+
+  a(data-toggle="modal", href="#myModal") Launch modal
+  .modal.fade#myModal(role="dialog", aria-labelledby="myModalLabel", area-hidden="true")
+    .modal-dialog
+      .modal-content
+        .modal-header
+          h4.modal-title This is a title
+        .modal-body
+          p this is the body
+        .modal-footer
+          button(type="button", data-dismiss="modal") Close
+
+  script.
+    window.$ = require("jquery");
+    require("transition-end")
+    require("modal");
+    console.log("Testing modal");
